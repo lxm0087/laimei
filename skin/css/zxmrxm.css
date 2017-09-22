@@ -1,0 +1,29 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.pinpaiContent .contentRight {width:1200px;padding-top:35px;}
+.seoNavs {left:0;top:0px;width:100%;height:65px;line-height:65px;color:#666;font-size: 30px;font-family: "方正兰亭超黑细简体";border-bottom:1px solid #dcdcdc;}
+.seoNavs a {color:#c0025a;text-decoration:none;font-size: 30px;font-family: "方正兰亭超黑细简体";} 
+.pinpaiWrapper {width:100%;padding-top:19px;margin-top: 30px;}
+.pinpaiWrapper .jieshao {width: 600px;height: 90px;text-indent: 2em;margin: 0px auto;font-size: 14px;color: #666;font-family: "微软雅黑";line-height: 30px;}
+/*.pinpaiWrapper .content1 {height:865px;}*/
+.pinpaiWrapper .content1 ul {width: 100%;height: 510px;}
+.pinpaiWrapper .content1 ul li{width: 360px;height: 390px;background: #fff;float: left;margin: 20px;border: 1px solid #dcdcdc;text-align: center;}
+.pinpaiWrapper .content1 ul li a{display: inline-block; font-size: 30px;color: #cc0066;margin-top: 10px;font-family: "方正兰亭超黑细简体";}
+.pinpaiWrapper .content1 ul li .span{display:inline-block;width: 100%;font-size:18px;color: #333;margin: 5px 0px;font-family: "方正兰亭超黑细简体";}
+.pinpaiWrapper .content1 ul li .on p{margin: 0px 2px;font-size: 14px;color: #333;font-family: "方正兰亭超黑细简体";}
+.pinpaiWrapper .content1 ul li .img{margin: 5px;}
+.pinpaiWrapper .content1 ul li:hover{border: 1px solid #e1e1e1;transform: translate3d(0,-2px,0);-moz-transform: translate3d(0,-2px,0);-ms-transform: translate3d(0,-2px,0);-o-transform: translate3d(0,-2px,0);-webkit-transform: translate3d(0,-2px,0);box-shadow: 0 0 8px rgba(8,1,3,.2);-moz-box-shadow: 0 0 8px rgba(8,1,3,.2);-o-box-shadow: 0 0 8px rgba(8,1,3,.2);-ms-box-shadow: 0 0 8px rgba(8,1,3,.2);-webkit-box-shadow: 0 0 8px rgba(8,1,3,.2);}
+.pinpaiWrapper .content4{width: 100%;height: 210px;float: left; }
+.pinpaiWrapper .content4 ul{width: 750px;margin: 0 auto;}
+.pinpaiWrapper .content4 ul li{width: 200px;height: 200px;float: left;margin:25px;}
+.pinpaiWrapper .content4 p {font-size:14px;text-align:center; text-transform:uppercase;cursor: pointer; }
+.pinpaiWrapper .content4 ul li a{display: inline-block;width: 75px;height: 115px;margin-left: 62.5px;}
+.qiujing { background:url(../images/icons.png) no-repeat -236px -19px;}
+.qiujing:hover { background-position: -236px -145px;}
+.chengxin { background:url(../images/icons.png) no-repeat -506px -19px;}
+.chengxin:hover { background-position: -506px -145px;}
+.reqing { background:url(../images/icons.png) no-repeat -765px -19px;}
+.reqing:hover { background-position: -765px -145px;}
+
+

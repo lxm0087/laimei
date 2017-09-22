@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>高级搜索 - Powered by EmpireCMS</title>
+<link href="/skin/default/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/default/js/tabs.js"></script>
+<script src="/e/data/images/setday.js"></script>
+</head>
+<body class="listpage">
+<!-- 页头 -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="top">
+<tr>
+<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="63%">
+<!-- 登录 -->
+<script>
+document.write('<script src="/e/member/login/loginjs.php?t='+Math.random()+'"><'+'/script>');
+</script>
+</td>
+<td align="right">
+<a onclick="window.external.addFavorite(location.href,document.title)" href="#ecms">加入收藏</a> | <a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('/')" href="#ecms">设为首页</a> | <a href="/e/member/cp/">会员中心</a> | <a href="/e/DoInfo/">我要投稿</a> | <a href="/e/web/?type=rss2" target="_blank">RSS<img src="/skin/default/images/rss.gif" border="0" hspace="2" /></a>
+</td>
+</tr>
+</table></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="10">
+<tr valign="middle">
+<td width="240" align="center"><a href="/"><img src="/skin/default/images/logo.gif" width="200" height="65" border="0" /></a></td>
+<td align="center"><a href="http://www.phome.net/OpenSource/" target="_blank"><img src="/skin/default/images/opensource.gif" width="100%" height="70" border="0" /></a></td>
+</tr>
+</table>
+<!-- 导航tab选项卡 -->
+<table width="920" border="0" align="center" cellpadding="0" cellspacing="0" class="nav">
+  <tr> 
+    <td class="nav_global"><ul>
+        <li class="curr" id="tabnav_btn_0" onmouseover="tabit(this)"><a href="/">首页</a></li>
+        <li id="tabnav_btn_1" onmouseover="tabit(this)"><a href="/news/">新闻中心</a></li>
+        <li id="tabnav_btn_2" onmouseover="tabit(this)"><a href="/download/">下载中心</a></li>
+        <li id="tabnav_btn_3" onmouseover="tabit(this)"><a href="/movie/">影视频道</a></li>
+        <li id="tabnav_btn_4" onmouseover="tabit(this)"><a href="/shop/">网上商城</a></li>
+        <li id="tabnav_btn_5" onmouseover="tabit(this)"><a href="/flash/">FLASH频道</a></li>
+        <li id="tabnav_btn_6" onmouseover="tabit(this)"><a href="/photo/">图片频道</a></li>
+        <li id="tabnav_btn_7" onmouseover="tabit(this)"><a href="/article/">文章中心</a></li>
+        <li id="tabnav_btn_8" onmouseover="tabit(this)"><a href="/info/">分类信息</a></li>
+      </ul></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="10" cellpadding="0">
+	<tr valign="top">
+		<td class="list_content"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="position">
+				<tr>
+					<td>现在的位置：<a href='/'></a>&nbsp;>&nbsp;<a href='../search/'>高级搜索</a>&nbsp;></td>
+				</tr>
+			</table>
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" class="box">
+				<tr>
+					<td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td><form action='/e/search/index.php' method="post" name="search_news" id="search_news">
+									<table width="100%" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td width="54%"><table width="100%" border="0" cellpadding="6" cellspacing="0">
+													<tr>
+														<td bgcolor="#F4F4F4"><strong>搜索范围</strong></td>
+													</tr>
+											</table></td>
+											<td width="46%"><table width="100%" border="0" cellpadding="6" cellspacing="0">
+													<tr>
+														<td bgcolor="#F4F4F4"><strong>搜索栏目</strong></td>
+													</tr>
+											</table></td>
+										</tr>
+										<tr>
+											<td valign="top"><table width="100%" border="0" cellpadding="6" cellspacing="0">
+													<tr>
+														<td><input type="radio" name="show" value="title" checked="checked" />
+															标题
+															<input type="radio" name="show" value="smalltext" />
+															简介
+															<input type="radio" name="show" value="newstext" />
+															内容
+															<input type="radio" name="show" value="writer" />
+															作者
+															<input name="show" type="radio" value="title,smalltext,newstext,writer" />
+															不限</td>
+													</tr>
+												</table>
+													<br />
+													<table width="100%" border="0" cellpadding="6" cellspacing="0">
+														<tr bgcolor="#F4F4F4">
+															<td><strong>时间限制</strong><font color="#666666">(0000-00-00为不限制)</font></td>
+														</tr>
+														<tr>
+															<td height="30" valign="top">从
+																<input name="starttime" type="text" value="0000-00-00" size="12" onclick="setday(this)" />
+																到
+																<input name="endtime" type="text" value="0000-00-00" size="12" onclick="setday(this)" />
+																之间的数据</td>
+														</tr>
+														<tr>
+															<td bgcolor="#F4F4F4"><strong>价格限制</strong><font color="#666666">(商城模型中有效,0为不限制)</font></td>
+														</tr>
+														<tr>
+															<td>从
+																<input name="startprice" type="text" id="startprice" value="0" size="6" />
+																到
+																<input name="endprice" type="text" id="endprice" value="0" size="6" />
+																元之间</td>
+														</tr>
+												</table></td>
+											<td valign="top"><table width="100%" border="0" cellspacing="6" cellpadding="0">
+													<tr>
+														<td><select name="classid" size="8" id="select2" style="width: 100%;height:112px">
+																<option value="0" selected="selected">所有栏目</option>
+															<option value='1' style='background:#99C4E3'>|-经典项目</option><option value='2'>|-眼部整形</option><option value='13' style='background:#99C4E3'>&nbsp;&nbsp;|-眼部综合</option><option value='14'>&nbsp;&nbsp;|-眼部抗衰</option><option value='15'>&nbsp;&nbsp;|-眼部修复</option><option value='16'>&nbsp;&nbsp;|-眼眉综合</option><option value='3'>|-鼻部整形</option><option value='20' style='background:#99C4E3'>&nbsp;&nbsp;|-甄别精品</option><option value='21' style='background:#99C4E3'>&nbsp;&nbsp;|-隆鼻</option><option value='4'>|-胸部整形</option><option value='22' style='background:#99C4E3'>&nbsp;&nbsp;|-丰胸整形</option><option value='23' style='background:#99C4E3'>&nbsp;&nbsp;|- 乳房矫正</option><option value='24' style='background:#99C4E3'>&nbsp;&nbsp;|-乳房修复</option><option value='25' style='background:#99C4E3'>&nbsp;&nbsp;|-乳头整形</option><option value='5'>|-面部轮廓</option><option value='26' style='background:#99C4E3'>&nbsp;&nbsp;|-面颌整形</option><option value='27' style='background:#99C4E3'>&nbsp;&nbsp;|-耳部整形</option><option value='28' style='background:#99C4E3'>&nbsp;&nbsp;|-唇部整形</option><option value='6'>|-形体雕塑</option><option value='29' style='background:#99C4E3'>&nbsp;&nbsp;|-吸脂塑形</option><option value='30' style='background:#99C4E3'>&nbsp;&nbsp;|-脂肪填充</option><option value='7'>|-微整形</option><option value='31' style='background:#99C4E3'>&nbsp;&nbsp;|-注射材料</option><option value='32' style='background:#99C4E3'>&nbsp;&nbsp;|- 注射除皱</option><option value='33' style='background:#99C4E3'>&nbsp;&nbsp;|-注射塑型</option><option value='34' style='background:#99C4E3'>&nbsp;&nbsp;|-无创减肥</option><option value='8'>|-皮肤美容</option><option value='35' style='background:#99C4E3'>&nbsp;&nbsp;|-祛斑</option><option value='36' style='background:#99C4E3'>&nbsp;&nbsp;|-皮肤治疗</option><option value='37' style='background:#99C4E3'>&nbsp;&nbsp;|-美白嫩肤</option><option value='38' style='background:#99C4E3'>&nbsp;&nbsp;|-除皱紧肤</option><option value='39' style='background:#99C4E3'>&nbsp;&nbsp;|-永久脱毛</option><option value='40' style='background:#99C4E3'>&nbsp;&nbsp;|- 艺术纹绣</option><option value='9' style='background:#99C4E3'>|-私密整形</option><option value='10'>|-口腔美容</option><option value='41' style='background:#99C4E3'>&nbsp;&nbsp;|-牙齿美容</option><option value='42' style='background:#99C4E3'>&nbsp;&nbsp;|-牙齿矫正</option><option value='43' style='background:#99C4E3'>&nbsp;&nbsp;|-牙齿美白</option><option value='44' style='background:#99C4E3'>&nbsp;&nbsp;|-牙齿种植</option><option value='45' style='background:#99C4E3'>&nbsp;&nbsp;|-牙齿治疗保健</option><option value='11' style='background:#99C4E3'>|-毛发种植</option><option value='46'>|-关于莱美</option><option value='47' style='background:#99C4E3'>&nbsp;&nbsp;|-品牌介绍</option><option value='48' style='background:#99C4E3'>&nbsp;&nbsp;|-专家团队</option><option value='49' style='background:#99C4E3'>&nbsp;&nbsp;|-医院环境</option><option value='50' style='background:#99C4E3'>&nbsp;&nbsp;|-医院荣誉</option><option value='51' style='background:#99C4E3'>&nbsp;&nbsp;|-尖端设备</option><option value='52' style='background:#99C4E3'>&nbsp;&nbsp;|-媒体报道</option><option value='53' style='background:#99C4E3'>&nbsp;&nbsp;|-来院路线</option><option value='57' style='background:#99C4E3'>&nbsp;&nbsp;|-莱美动态</option><option value='58' style='background:#99C4E3'>&nbsp;&nbsp;|-媒体报道</option><option value='59'>&nbsp;&nbsp;|-友情链接</option><option value='60' style='background:#99C4E3'>&nbsp;&nbsp;|-美丽案例</option><option value='61' style='background:#99C4E3'>&nbsp;&nbsp;|-最新活动</option><option value='62' style='background:#99C4E3'>&nbsp;&nbsp;|-医师组合</option><option value='54'>|-首页管理</option><option value='55' style='background:#99C4E3'>&nbsp;&nbsp;|-banner导航</option><option value='56' style='background:#99C4E3'>&nbsp;&nbsp;|-banner管理</option>
+          
+														</select></td>
+													</tr>
+												</table>
+													<table width="100%" border="0" cellpadding="6" cellspacing="0">
+														<tr>
+															<td bgcolor="#F4F4F4"><strong>结果显示</strong></td>
+														</tr>
+														<tr>
+															<td height="30"><select name="orderby" id="select4">
+																	<option value="">按发布日期</option>
+																	<option value="id">信息ID</option>
+																	<option value="plnum">评论数</option>
+																	<option value="onclick">人气</option>
+																	<option value="totaldown">下载数</option>
+																</select>
+																	<select name="myorder" id="select5">
+																		<option value="0">倒序排列</option>
+																		<option value="1">顺序排列</option>
+																	</select>
+															</td>
+														</tr>
+												</table></td>
+										</tr>
+									</table>
+								<table width="100%" border="0" cellpadding="4" cellspacing="0">
+										<tr>
+											<td>关键字：
+												<input name="keyboard" type="text" id="keyboard2" size="60" />
+													<input type="submit" name="Submit22" value="搜索" />
+											</td>
+										</tr>
+									</table>
+							</form></td>
+						</tr>
+					</table></td>
+				</tr>
+			</table></td>
+	</tr>
+</table>
+<div class="footer">
+  <div class="pubW center clearfix">
+	<div class="footerNav">
+		<div class="footer_logo fl"></div>
+		<i></i>
+		<div class="footer_address fl">
+			<div class="footer_text center">
+				<h1>医院地址</h1>
+				<p>南昌市抚河抚河南路261号（上林春天花园北门）</p>
+				<p>免费热线：0791-86667777</p>
+				<p>乘车路线：20路、25路、218路、33路到建设路西口</p>
+			</div>
+		</div>
+		<i></i>
+		<div class="footer_qrcode fl"></div>
+	</div>
+		<p>网站内容申明：本网站信息仅供参考，不能作为诊疗及医疗依据本网站商标及图片权属本医院所有，未经授权请勿复制及转载！部分图片来源于网络且图文无关，若侵犯了您的权益请及时联系。<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fb6c8806730042053a0e3f0786c2872ce' type='text/javascript'%3E%3C/script%3E"));
+</script></p>
+  </div>
+</div>
+<div class="copyright">
+	<div class="splitline"></div>
+	<p>Copyright @ 南昌莱美美容医院 All rights reserved 赣ICP备10201680号</p>
+</div>
+<!-- end footer -->
+<script language="javascript" src="js/kst.js"></script>
+<div id="ScrollTop">Top</div>
+<script>
+	window.onload = function () {
+    var top = document.getElementById("ScrollTop");
+    //滚动一屏幕时显示回到顶部
+    window.onscroll = function () {
+        var currentPosition = document.documentElement.scrollTop || document.body.scrollTop;
+        currentPosition > window.screen.availHeight ? top.style.display = "block" : top.style.display = "none";
+    };
+    top.onclick = GoTop;// 注意不要括号
+    function GoTop() {
+        var timer = setInterval(function () {
+    var currentPosition = document.documentElement.scrollTop || document.body.scrollTop;
+            currentPosition -= 100;
+            if (currentPosition > 0) {
+                window.scrollTo(0, currentPosition);
+            }
+            else {
+                window.scrollTo(0, 0);
+                clearInterval(timer);
+            }
+        }, 30);
+    }
+}
+</script>
+</body>
+</html>
