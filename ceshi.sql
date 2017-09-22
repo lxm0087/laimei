@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50553
 File Encoding         : 65001
 
-Date: 2017-09-22 17:52:59
+Date: 2017-09-22 21:46:26
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -784,7 +784,7 @@ CREATE TABLE `phome_enewsclass` (
   `addtime` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`classid`),
   KEY `bclassid` (`bclassid`)
-) ENGINE=MyISAM AUTO_INCREMENT=57 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=63 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of phome_enewsclass
@@ -830,7 +830,7 @@ INSERT INTO `phome_enewsclass` VALUES ('42', '10', '牙齿矫正', '', '0', '25'
 INSERT INTO `phome_enewsclass` VALUES ('43', '10', '牙齿美白', '', '0', '25', '10', '1', '0', '1', '|10|', '1', 'kqmr/ycmb', '.html', 'Y-m-d', '0', '.html', '0', '1', '10', '10', '10', '', '0', '0', '', '10', '1', '1', '10', '牙齿美白', '0', '0', '1', 'news', '0', '0', '2', '2', 'id DESC', 'newstime DESC', '', '', '1', '0', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '1', '0', '0', '0', '0', '', '1', '0', '0', '0', '', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '0', '0', '0', '1505893910');
 INSERT INTO `phome_enewsclass` VALUES ('44', '10', '牙齿种植', '', '0', '25', '10', '1', '0', '1', '|10|', '1', 'kqmr/yczz', '.html', 'Y-m-d', '0', '.html', '0', '1', '10', '10', '10', '', '0', '0', '', '10', '1', '1', '10', '牙齿种植', '0', '0', '1', 'news', '0', '0', '2', '2', 'id DESC', 'newstime DESC', '', '', '1', '0', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '1', '0', '0', '0', '0', '', '1', '0', '0', '0', '', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '0', '0', '0', '1505893933');
 INSERT INTO `phome_enewsclass` VALUES ('45', '10', '牙齿治疗保健', '', '0', '25', '10', '1', '0', '1', '|10|', '1', 'kqmr/yczlbj', '.html', 'Y-m-d', '0', '.html', '0', '1', '10', '10', '10', '', '0', '0', '', '10', '1', '1', '10', '牙齿治疗保健', '0', '0', '1', 'news', '0', '0', '2', '2', 'id DESC', 'newstime DESC', '', '', '1', '0', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '1', '0', '0', '0', '0', '', '1', '0', '0', '0', '', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '0', '0', '0', '1505893960');
-INSERT INTO `phome_enewsclass` VALUES ('46', '0', '关于莱美', '|47|48|49|50|51|52|53|', '0', '25', '10', '0', '0', '0', '', '0', 'gylm', '.html', 'Y-m-d', '0', '.html', '0', '1', '10', '10', '10', '', '0', '0', '', '10', '1', '1', '10', '关于莱美', '0', '0', '1', 'news', '0', '0', '2', '2', 'id DESC', 'newstime DESC', '', '', '1', '0', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '1', '0', '0', '0', '0', '', '1', '0', '0', '0', '', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '0', '0', '0', '1505962647');
+INSERT INTO `phome_enewsclass` VALUES ('46', '0', '关于莱美', '|47|48|49|50|51|52|53|57|58|60|61|62|', '0', '25', '10', '0', '0', '0', '', '0', 'gylm', '.html', 'Y-m-d', '0', '.html', '0', '1', '10', '10', '10', '', '0', '0', '', '10', '1', '1', '10', '关于莱美', '0', '0', '1', 'news', '0', '0', '2', '2', 'id DESC', 'newstime DESC', '', '', '1', '0', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '1', '0', '0', '0', '0', '', '1', '0', '0', '0', '', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '0', '0', '0', '1505962647');
 INSERT INTO `phome_enewsclass` VALUES ('47', '46', '品牌介绍', '', '0', '25', '10', '0', '0', '0', '|46|', '1', 'gylm/ppjs', '.html', 'Y-m-d', '0', '.html', '0', '1', '10', '10', '10', '', '0', '0', '', '10', '1', '1', '10', '品牌介绍', '0', '0', '1', 'news', '0', '0', '2', '2', 'id DESC', 'newstime DESC', '', '', '1', '0', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '1', '0', '0', '0', '0', '', '1', '0', '0', '0', '', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '0', '0', '0', '1505962860');
 INSERT INTO `phome_enewsclass` VALUES ('48', '46', '专家团队', '', '0', '25', '10', '1', '0', '1', '|46|', '1', 'gylm/zjlm', '.html', 'Y-m-d', '0', '.html', '0', '1', '10', '10', '10', '', '0', '0', '', '10', '1', '1', '10', '专家团队', '0', '0', '1', 'news', '0', '0', '2', '2', 'id DESC', 'newstime DESC', '', '', '1', '0', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '1', '0', '0', '0', '0', '', '1', '0', '0', '0', '', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '0', '0', '0', '1505963182');
 INSERT INTO `phome_enewsclass` VALUES ('49', '46', '医院环境', '', '0', '25', '10', '1', '0', '1', '|46|', '1', 'gylm/yyhj', '.html', 'Y-m-d', '0', '.html', '0', '1', '10', '10', '10', '', '0', '0', '', '10', '1', '1', '10', '医院环境', '0', '0', '1', 'news', '0', '0', '2', '2', 'id DESC', 'newstime DESC', '', '', '1', '0', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '1', '0', '0', '0', '0', '', '1', '0', '0', '0', '', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '0', '0', '0', '1505963233');
@@ -841,6 +841,12 @@ INSERT INTO `phome_enewsclass` VALUES ('53', '46', '来院路线', '', '0', '25'
 INSERT INTO `phome_enewsclass` VALUES ('54', '0', '首页管理', '|55|56|', '0', '25', '10', '0', '0', '0', '', '0', 'sygl', '.html', 'Y-m-d', '0', '.html', '0', '1', '10', '10', '10', '', '0', '0', '', '10', '1', '1', '10', '首页管理', '0', '0', '1', 'news', '0', '0', '2', '2', 'id DESC', 'newstime DESC', '', '', '1', '0', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '1', '0', '0', '0', '0', '', '1', '0', '0', '0', '', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '0', '0', '0', '1505964025');
 INSERT INTO `phome_enewsclass` VALUES ('55', '54', 'banner导航', '', '0', '25', '10', '1', '0', '1', '|54|', '1', 'sygl/subnav', '.html', 'Y-m-d', '0', '.html', '0', '1', '10', '10', '10', '', '0', '0', '', '10', '1', '1', '10', 'banner导航', '0', '0', '1', 'news', '0', '0', '2', '2', 'id DESC', 'newstime DESC', '', '', '1', '0', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '1', '0', '0', '0', '0', '', '1', '0', '0', '0', '', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '0', '0', '0', '1505964187');
 INSERT INTO `phome_enewsclass` VALUES ('56', '54', 'banner管理', '', '0', '25', '10', '1', '0', '1', '|54|', '1', 'sygl/banner', '.html', 'Y-m-d', '0', '.html', '0', '1', '10', '10', '10', '', '0', '0', '', '10', '1', '1', '10', 'banner管理', '0', '0', '1', 'news', '0', '0', '2', '2', 'id DESC', 'newstime DESC', '', '', '1', '0', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '1', '0', '0', '0', '0', '', '1', '0', '0', '0', '', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '0', '7', '7', '1505964244');
+INSERT INTO `phome_enewsclass` VALUES ('57', '46', '莱美动态', '', '0', '25', '10', '1', '0', '1', '|46|', '1', 'gylm/lmdt', '.html', 'Y-m-d', '0', '.html', '0', '1', '10', '10', '10', '', '0', '0', '', '10', '1', '1', '10', '莱美动态', '0', '0', '1', 'news', '0', '0', '2', '2', 'id DESC', 'newstime DESC', '', '', '1', '0', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '1', '1', '0', '0', '0', '0', '', '1', '0', '0', '0', '', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '0', '0', '0', '1506086033');
+INSERT INTO `phome_enewsclass` VALUES ('58', '46', '媒体报道', '', '0', '25', '10', '1', '0', '1', '|46|', '1', 'gylm/lmbd', '.html', 'Y-m-d', '0', '.html', '0', '1', '10', '10', '10', '', '0', '0', '', '10', '1', '1', '10', '媒体报道', '0', '0', '1', 'news', '0', '0', '2', '2', 'id DESC', 'newstime DESC', '', '', '1', '0', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '1', '1', '0', '0', '0', '0', '', '1', '0', '0', '0', '', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '0', '0', '0', '1506086106');
+INSERT INTO `phome_enewsclass` VALUES ('59', '46', '友情链接', '', '0', '25', '10', '0', '0', '1', '|46|', '0', 'gylm/yqlj', '.html', 'Y-m-d', '0', '.html', '0', '1', '10', '10', '10', '', '0', '0', '', '10', '1', '1', '10', '友情链接', '0', '0', '1', 'news', '0', '0', '2', '2', 'id DESC', 'newstime DESC', '', '', '1', '0', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '1', '1', '0', '0', '0', '0', '', '1', '0', '0', '0', '', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '0', '0', '0', '1506086171');
+INSERT INTO `phome_enewsclass` VALUES ('60', '46', '美丽案例', '', '0', '25', '10', '1', '0', '1', '|46|', '1', 'gylm/mlal', '.html', 'Y-m-d', '0', '.html', '0', '1', '10', '10', '10', '', '0', '0', '', '10', '1', '1', '10', '美丽案例', '0', '0', '1', 'news', '0', '0', '2', '2', 'id DESC', 'newstime DESC', '', '', '1', '0', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '1', '1', '0', '0', '0', '0', '', '1', '0', '0', '0', '', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '0', '0', '0', '1506086216');
+INSERT INTO `phome_enewsclass` VALUES ('61', '46', '最新活动', '', '0', '25', '10', '1', '0', '1', '|46|', '1', 'gylm/zxhd', '.html', 'Y-m-d', '0', '.html', '0', '1', '10', '10', '10', '', '0', '0', '', '10', '1', '1', '10', '最新活动', '0', '0', '1', 'news', '0', '0', '2', '2', 'id DESC', 'newstime DESC', '', '', '1', '0', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '1', '1', '0', '0', '0', '0', '', '1', '0', '0', '0', '', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '0', '0', '0', '1506086425');
+INSERT INTO `phome_enewsclass` VALUES ('62', '46', '医师组合', '', '0', '25', '10', '1', '0', '1', '|46|', '1', 'gylm/yszh', '.html', 'Y-m-d', '0', '.html', '0', '1', '10', '10', '10', '', '0', '0', '', '10', '1', '1', '10', '医师组合', '0', '0', '1', 'news', '0', '0', '2', '2', 'id DESC', 'newstime DESC', '', '', '1', '0', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '1', '1', '0', '0', '0', '0', '', '1', '0', '0', '0', '', '0', '0', '0', '0', '', '0', '0', '0', '', '0', '0', '0', '0', '1506086464');
 
 -- ----------------------------
 -- Table structure for `phome_enewsclassadd`
@@ -908,6 +914,12 @@ INSERT INTO `phome_enewsclassadd` VALUES ('53', '', '');
 INSERT INTO `phome_enewsclassadd` VALUES ('54', '', '');
 INSERT INTO `phome_enewsclassadd` VALUES ('55', '', '');
 INSERT INTO `phome_enewsclassadd` VALUES ('56', '', '');
+INSERT INTO `phome_enewsclassadd` VALUES ('57', '', '');
+INSERT INTO `phome_enewsclassadd` VALUES ('58', '', '');
+INSERT INTO `phome_enewsclassadd` VALUES ('59', '', '');
+INSERT INTO `phome_enewsclassadd` VALUES ('60', '', '');
+INSERT INTO `phome_enewsclassadd` VALUES ('61', '', '');
+INSERT INTO `phome_enewsclassadd` VALUES ('62', '', '');
 
 -- ----------------------------
 -- Table structure for `phome_enewsclassf`
@@ -1065,6 +1077,12 @@ INSERT INTO `phome_enewsclass_stats` VALUES ('53', '0', '0', '0', '0', '0', '0',
 INSERT INTO `phome_enewsclass_stats` VALUES ('54', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
 INSERT INTO `phome_enewsclass_stats` VALUES ('55', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
 INSERT INTO `phome_enewsclass_stats` VALUES ('56', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `phome_enewsclass_stats` VALUES ('57', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `phome_enewsclass_stats` VALUES ('58', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `phome_enewsclass_stats` VALUES ('59', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `phome_enewsclass_stats` VALUES ('60', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `phome_enewsclass_stats` VALUES ('61', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `phome_enewsclass_stats` VALUES ('62', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
 
 -- ----------------------------
 -- Table structure for `phome_enewsclass_stats_ip`
@@ -1145,7 +1163,7 @@ CREATE TABLE `phome_enewsdolog` (
   `ipport` varchar(6) NOT NULL DEFAULT '',
   PRIMARY KEY (`logid`),
   KEY `pubid` (`pubid`)
-) ENGINE=MyISAM AUTO_INCREMENT=481 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=488 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of phome_enewsdolog
@@ -1630,6 +1648,13 @@ INSERT INTO `phome_enewsdolog` VALUES ('477', '::1', '2017-09-22 16:48:50', 'adm
 INSERT INTO `phome_enewsdolog` VALUES ('478', '::1', '2017-09-22 16:49:19', 'admin', 'ReListHtml_all', '---', '0', '60413');
 INSERT INTO `phome_enewsdolog` VALUES ('479', '::1', '2017-09-22 16:49:45', 'admin', 'EditTempvar', 'varid=1<br>var=header&gid=1', '0', '60487');
 INSERT INTO `phome_enewsdolog` VALUES ('480', '::1', '2017-09-22 16:50:05', 'admin', 'ReListHtml_all', '---', '0', '60487');
+INSERT INTO `phome_enewsdolog` VALUES ('481', '::1', '2017-09-22 21:10:10', 'admin', 'login', '---', '0', '55818');
+INSERT INTO `phome_enewsdolog` VALUES ('482', '::1', '2017-09-22 21:13:53', 'admin', 'AddClass', 'classid=57<br>classname=莱美动态', '0', '56652');
+INSERT INTO `phome_enewsdolog` VALUES ('483', '::1', '2017-09-22 21:15:06', 'admin', 'AddClass', 'classid=58<br>classname=媒体报道', '0', '56968');
+INSERT INTO `phome_enewsdolog` VALUES ('484', '::1', '2017-09-22 21:16:11', 'admin', 'AddClass', 'classid=59<br>classname=友情链接', '0', '57196');
+INSERT INTO `phome_enewsdolog` VALUES ('485', '::1', '2017-09-22 21:16:56', 'admin', 'AddClass', 'classid=60<br>classname=美丽案例', '0', '57458');
+INSERT INTO `phome_enewsdolog` VALUES ('486', '::1', '2017-09-22 21:20:25', 'admin', 'AddClass', 'classid=61<br>classname=最新活动', '0', '58153');
+INSERT INTO `phome_enewsdolog` VALUES ('487', '::1', '2017-09-22 21:21:04', 'admin', 'AddClass', 'classid=62<br>classname=医师组合', '0', '58352');
 
 -- ----------------------------
 -- Table structure for `phome_enewsdownerror`
@@ -2619,7 +2644,7 @@ CREATE TABLE `phome_enewslog` (
   `ipport` varchar(6) NOT NULL DEFAULT '',
   PRIMARY KEY (`loginid`),
   KEY `status` (`status`)
-) ENGINE=MyISAM AUTO_INCREMENT=35 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=36 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of phome_enewslog
@@ -2658,6 +2683,7 @@ INSERT INTO `phome_enewslog` VALUES ('31', 'admin', '2017-09-22 12:12:26', '::1'
 INSERT INTO `phome_enewslog` VALUES ('32', 'admin', '2017-09-22 15:37:43', '::1', '1', '', '0', '55012');
 INSERT INTO `phome_enewslog` VALUES ('33', 'admin', '2017-09-22 16:02:04', '::1', '1', '', '0', '56817');
 INSERT INTO `phome_enewslog` VALUES ('34', 'admin', '2017-09-22 16:24:52', '::1', '1', '', '0', '57846');
+INSERT INTO `phome_enewslog` VALUES ('35', 'admin', '2017-09-22 21:10:10', '::1', '1', '', '0', '55818');
 
 -- ----------------------------
 -- Table structure for `phome_enewsloginfail`
@@ -3029,7 +3055,7 @@ CREATE TABLE `phome_enewsmod` (
 -- ----------------------------
 -- Records of phome_enewsmod
 -- ----------------------------
-INSERT INTO `phome_enewsmod` VALUES ('1', '新闻系统模型', '<table width=\\\'100%\\\' align=center cellpadding=3 cellspacing=1 class=\\\"tableborder\\\"><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>标题(*)</td><td bgcolor=\\\'ffffff\\\'>[!--title--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>副标题</td><td bgcolor=\\\'ffffff\\\'>[!--ftitle--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>特殊属性</td><td bgcolor=\\\'ffffff\\\'>[!--special.field--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>发布时间</td><td bgcolor=\\\'ffffff\\\'>[!--newstime--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>标题图片</td><td bgcolor=\\\'ffffff\\\'>[!--titlepic--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>内容简介</td><td bgcolor=\\\'ffffff\\\'>[!--smalltext--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>作者</td><td bgcolor=\\\'ffffff\\\'>[!--writer--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>信息来源</td><td bgcolor=\\\'ffffff\\\'>[!--befrom--]</td></tr><tr><td height=25 colspan=2 bgcolor=\\\'ffffff\\\'><div align=left>新闻正文(*)</div></td></tr></table><div style=\\\"background-color:#D0D0D0\\\">[!--newstext--]</div>', '新闻系统模型', '标题<!--field--->title<!--record-->副标题<!--field--->ftitle<!--record-->发布时间<!--field--->newstime<!--record-->标题图片<!--field--->titlepic<!--record-->内容简介<!--field--->smalltext<!--record-->作者<!--field--->writer<!--record-->信息来源<!--field--->befrom<!--record-->新闻正文<!--field--->newstext<!--record-->', '标题<!--field--->title<!--record-->副标题<!--field--->ftitle<!--record-->特殊属性<!--field--->special.field<!--record-->发布时间<!--field--->newstime<!--record-->标题图片<!--field--->titlepic<!--record-->内容简介<!--field--->smalltext<!--record-->作者<!--field--->writer<!--record-->信息来源<!--field--->befrom<!--record-->新闻正文<!--field--->newstext<!--record-->', '标题<!--field--->title<!--record-->副标题<!--field--->ftitle<!--record-->发布时间<!--field--->newstime<!--record-->标题图片<!--field--->titlepic<!--record-->内容简介<!--field--->smalltext<!--record-->作者<!--field--->writer<!--record-->信息来源<!--field--->befrom<!--record-->新闻正文<!--field--->newstext<!--record-->顶<!--field--->diggtop<!--record-->', '|1|9|11|23|13|22|21|20|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|47|48|49|50|51|52|53|55|56|', ',title,smalltext,', '1', 'news', '标题<!--field--->title<!--record-->副标题<!--field--->ftitle<!--record-->特殊属性<!--field--->special.field<!--record-->标题图片<!--field--->titlepic<!--record-->内容简介<!--field--->smalltext<!--record-->作者<!--field--->writer<!--record-->信息来源<!--field--->befrom<!--record-->新闻正文<!--field--->newstext<!--record-->', ',title,newstext,', '<table width=100% align=center cellpadding=3 cellspacing=1 class=\\\"tableborder\\\"><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>标题(*)</td><td bgcolor=\\\'ffffff\\\'>[!--title--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>副标题</td><td bgcolor=\\\'ffffff\\\'>[!--ftitle--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>关键字</td><td bgcolor=\\\'ffffff\\\'>[!--special.field--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>标题图片</td><td bgcolor=\\\'ffffff\\\'>[!--titlepic--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>内容简介</td><td bgcolor=\\\'ffffff\\\'>[!--smalltext--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>作者</td><td bgcolor=\\\'ffffff\\\'>[!--writer--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>信息来源</td><td bgcolor=\\\'ffffff\\\'>[!--befrom--]</td></tr><tr><td height=25 colspan=2 bgcolor=\\\'ffffff\\\'><div align=left>新闻正文(*)</div></td></tr></table><div style=\\\"background-color:#D0D0D0\\\">[!--newstext--]</div>', '', '0', '标题<!--field--->title<!--record-->副标题<!--field--->ftitle<!--record-->发布时间<!--field--->newstime<!--record-->标题图片<!--field--->titlepic<!--record-->内容简介<!--field--->smalltext<!--record-->顶<!--field--->diggtop<!--record-->', '新闻', ',title,ftitle,newstime,titlepic,smalltext,writer,befrom,newstext,', ',title,ftitle,newstime,titlepic,smalltext,writer,befrom,newstext,', '0', '0', '0', '0', '', '1', '', '0');
+INSERT INTO `phome_enewsmod` VALUES ('1', '新闻系统模型', '<table width=\\\'100%\\\' align=center cellpadding=3 cellspacing=1 class=\\\"tableborder\\\"><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>标题(*)</td><td bgcolor=\\\'ffffff\\\'>[!--title--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>副标题</td><td bgcolor=\\\'ffffff\\\'>[!--ftitle--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>特殊属性</td><td bgcolor=\\\'ffffff\\\'>[!--special.field--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>发布时间</td><td bgcolor=\\\'ffffff\\\'>[!--newstime--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>标题图片</td><td bgcolor=\\\'ffffff\\\'>[!--titlepic--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>内容简介</td><td bgcolor=\\\'ffffff\\\'>[!--smalltext--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>作者</td><td bgcolor=\\\'ffffff\\\'>[!--writer--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>信息来源</td><td bgcolor=\\\'ffffff\\\'>[!--befrom--]</td></tr><tr><td height=25 colspan=2 bgcolor=\\\'ffffff\\\'><div align=left>新闻正文(*)</div></td></tr></table><div style=\\\"background-color:#D0D0D0\\\">[!--newstext--]</div>', '新闻系统模型', '标题<!--field--->title<!--record-->副标题<!--field--->ftitle<!--record-->发布时间<!--field--->newstime<!--record-->标题图片<!--field--->titlepic<!--record-->内容简介<!--field--->smalltext<!--record-->作者<!--field--->writer<!--record-->信息来源<!--field--->befrom<!--record-->新闻正文<!--field--->newstext<!--record-->', '标题<!--field--->title<!--record-->副标题<!--field--->ftitle<!--record-->特殊属性<!--field--->special.field<!--record-->发布时间<!--field--->newstime<!--record-->标题图片<!--field--->titlepic<!--record-->内容简介<!--field--->smalltext<!--record-->作者<!--field--->writer<!--record-->信息来源<!--field--->befrom<!--record-->新闻正文<!--field--->newstext<!--record-->', '标题<!--field--->title<!--record-->副标题<!--field--->ftitle<!--record-->发布时间<!--field--->newstime<!--record-->标题图片<!--field--->titlepic<!--record-->内容简介<!--field--->smalltext<!--record-->作者<!--field--->writer<!--record-->信息来源<!--field--->befrom<!--record-->新闻正文<!--field--->newstext<!--record-->顶<!--field--->diggtop<!--record-->', '|1|9|11|23|13|22|21|20|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|47|48|49|50|51|52|53|55|56|57|58|60|61|62|', ',title,smalltext,', '1', 'news', '标题<!--field--->title<!--record-->副标题<!--field--->ftitle<!--record-->特殊属性<!--field--->special.field<!--record-->标题图片<!--field--->titlepic<!--record-->内容简介<!--field--->smalltext<!--record-->作者<!--field--->writer<!--record-->信息来源<!--field--->befrom<!--record-->新闻正文<!--field--->newstext<!--record-->', ',title,newstext,', '<table width=100% align=center cellpadding=3 cellspacing=1 class=\\\"tableborder\\\"><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>标题(*)</td><td bgcolor=\\\'ffffff\\\'>[!--title--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>副标题</td><td bgcolor=\\\'ffffff\\\'>[!--ftitle--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>关键字</td><td bgcolor=\\\'ffffff\\\'>[!--special.field--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>标题图片</td><td bgcolor=\\\'ffffff\\\'>[!--titlepic--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>内容简介</td><td bgcolor=\\\'ffffff\\\'>[!--smalltext--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>作者</td><td bgcolor=\\\'ffffff\\\'>[!--writer--]</td></tr><tr><td width=\\\'16%\\\' height=25 bgcolor=\\\'ffffff\\\'>信息来源</td><td bgcolor=\\\'ffffff\\\'>[!--befrom--]</td></tr><tr><td height=25 colspan=2 bgcolor=\\\'ffffff\\\'><div align=left>新闻正文(*)</div></td></tr></table><div style=\\\"background-color:#D0D0D0\\\">[!--newstext--]</div>', '', '0', '标题<!--field--->title<!--record-->副标题<!--field--->ftitle<!--record-->发布时间<!--field--->newstime<!--record-->标题图片<!--field--->titlepic<!--record-->内容简介<!--field--->smalltext<!--record-->顶<!--field--->diggtop<!--record-->', '新闻', ',title,ftitle,newstime,titlepic,smalltext,writer,befrom,newstext,', ',title,ftitle,newstime,titlepic,smalltext,writer,befrom,newstext,', '0', '0', '0', '0', '', '1', '', '0');
 
 -- ----------------------------
 -- Table structure for `phome_enewsmoreport`
@@ -4691,7 +4717,7 @@ CREATE TABLE `phome_enewsuser` (
 -- ----------------------------
 -- Records of phome_enewsuser
 -- ----------------------------
-INSERT INTO `phome_enewsuser` VALUES ('1', 'admin', 'ef21c07348ad676bbbbe6c1218f3044f', '7plaWndZQz2R3iDmAS1R', '', '1', '0', '1', '0', 'b8bYxKFg', '34', '1506068692', '::1', '', '', '0', '1506067324', '::1', '1505868030', '::1', 'bHZHc9Ptaa27oDslVIDoNJYAh2JUNeKRvCQbNkRzHZb58Lfe', 'qdXgxeVnyQoQ1CefYKrw', '57846', '56817', '58141', '');
+INSERT INTO `phome_enewsuser` VALUES ('1', 'admin', 'ef21c07348ad676bbbbe6c1218f3044f', 'b1Gc5UekGFrjvYzFU8Be', '', '1', '0', '1', '0', 'b8bYxKFg', '35', '1506085810', '::1', '', '', '0', '1506068692', '::1', '1505868030', '::1', 'bHZHc9Ptaa27oDslVIDoNJYAh2JUNeKRvCQbNkRzHZb58Lfe', 'qdXgxeVnyQoQ1CefYKrw', '55818', '57846', '58141', '');
 
 -- ----------------------------
 -- Table structure for `phome_enewsuseradd`
@@ -4812,7 +4838,7 @@ CREATE TABLE `phome_enewsuserloginck` (
 -- ----------------------------
 -- Records of phome_enewsuserloginck
 -- ----------------------------
-INSERT INTO `phome_enewsuserloginck` VALUES ('1', 'c1ae0c0db02ca79088193f0e9816b254');
+INSERT INTO `phome_enewsuserloginck` VALUES ('1', '3ebc23743ecb01df3c5346af995f8ae8');
 
 -- ----------------------------
 -- Table structure for `phome_enewsvote`
